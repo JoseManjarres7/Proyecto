@@ -1,0 +1,38 @@
+* {
+    text-align: center;
+}
+
+.contorno {
+    border: 1px solid #2b579a;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    color: red;
+    font-style: italic;
+}
+
+img {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    text-align: left;
+    border: 1px solid #2b579a;
+      background-color: #dcdcdc;
+      padding: 5px;
+      font-size: 14px;
+      margin-top: 15px;
+}
