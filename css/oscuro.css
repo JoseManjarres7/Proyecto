@@ -1,0 +1,46 @@
+.btn-volver {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #1e293b;
+    color: #38bdf8;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    font-family: Arial, Helvetica;
+    font-weight: normal;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-volver:hover {
+    background-color: #334155;
+    transform: translateX(-3px);
+}
+
+header, footer, main {
+    color: #e0e0e0;
+    background-color: black;
+}
+
+h1, h2, p {
+    color:beige;
+}
+
+body {
+    background-color: #121212;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #1e293b;
+    color: white;
+    border: 1.2px solid #eb5050;
+    box-shadow: 0 0 1.2px #fafd59, 0 0 1.2px #a855f7; /* Mezcla azul y morado */
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 1.2px #38bdf8, 0 0 1.2px #ec4899; /* Intensifica el brillo al pasar el ratón */
+}
